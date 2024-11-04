@@ -30,7 +30,7 @@ export default function MainNavigator() {
         options={{
           tabBarLabel: 'Shop',
           tabBarIcon: ({ color, size }) => (
-            <MaterialIcons name='shop' color={color} size={26} />
+            <MaterialIcons name='shopping-cart' color={color} size={26} />
           ),
         }}
       />
@@ -51,3 +51,4 @@ export default function MainNavigator() {
 const styles = StyleSheet.create({
 
 });
+
